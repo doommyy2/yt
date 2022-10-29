@@ -1,0 +1,140 @@
+.grid-nadpis{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.nadpis{
+    font-family:'Arimo', sans-serif;
+    width: 80%;
+    text-align: center;
+    margin-left: 140px;
+    line-height: 50px;   
+    text-shadow: 0,4px 0,2px 0,2px #000;
+    margin-bottom: 110px;
+
+
+}
+.ebook-zdarma{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+mark{
+    background-color: yellow;
+}
+
+.main-grid{
+    margin-left: 260px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 900px;
+margin-bottom: 70px;
+
+
+}
+
+.ebook{
+    width: 80%;
+    box-shadow: 10px 10px 20px rgb(0 0 0 / 0.2);
+    padding: 0%;
+    height: 550px;
+
+}
+
+body{
+    padding-bottom: 0%;
+}
+.textove-pole{
+    line-height: 50px;
+    font-family:'Arimo', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: large;
+    
+
+}
+.barva{
+    background-color: rgb(2, 255, 2);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.nadpis-one{
+    text-decoration: underline;
+    font-family:'Arimo', sans-serif;
+    margin-left: 140px;
+
+
+}
+.podnadpis-one{
+    font-family:'Arimo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 85%;
+    margin-left: 140px;
+line-height: 25px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 30px;
+    flex: 100%;
+}
+.proof-nadpis{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Arimo', sans-serif;
+}
+.margin{
+    margin-bottom: 20px;
+}
+.proof-grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    border-style: solid;
+    width: 100%;
+}
+
+button{
+margin-top: 50px;
+margin-left: 480px;
+cursor: pointer;
+background-color: red;
+font-size: 30px;
+font-family:'Arimo', sans-serif;
+border-radius: 10px;
+border:none;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 20px;
+padding-bottom: 20px;
+color: antiquewhite;
+display: flex;
+justify-content: center;
+font-weight: 500;
+
+}
+button:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+}
+
+.footer{
+    display: flex;
+    margin-top: 100px;
+    background-color: grey;
+    height: 100px;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+
+
+}
+.rights{
+    font-family:'Arimo', sans-serif;
+    color: white;
+}
